@@ -295,21 +295,11 @@ a.green:focus,a.green:hover,a.red:focus,a.red:hover,a.error:focus,a.error:hover{
 .info-box h3,.info-box h3{font-weight:normal;font-family:'Oswald','Trebuchet MS',Helvetica,Arial,sans-serif;padding-bottom:.3em;border-bottom:1px solid;border-color:#999}
 .info-box a{color:#414141}
 .info-box a:hover{color:#b08c50}
-.hero-img-container{margin-bottom:1.5em}
-.hero-img-container img{min-width:80%}
-figure{display:block;position:relative}
-figcaption{position:absolute;text-align:right;background-color:rgba(237,238,231,0.85);color:#8c7664;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-o-transition:all .5s ease;width:100%}
-figure:hover figcaption{opacity:1}
-figure:before{content:"?";position:absolute;font-weight:800;background:rgba(237,238,231,0.85);text-shadow:0 0 5px #fff;color:#8c7664;width:24px;height:24px;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;text-align:center;font-size:14px;line-height:24px;-moz-transition:all .5s ease;opacity:.75}
-figure:hover:before{opacity:0}
-.cap-bot:before{bottom:10px;left:10px}
-.cap-bot figcaption{left:0;bottom:1%;opacity:0;height:1px;padding:0}
-.cap-bot:hover figcaption{bottom:1%;padding:25px 0}
-figcaption p{display:inline;padding:0 6% 0 10%;text-align:right;vertical-align:top}
 .icon-2{font-size:2em}
 .icon-left{position:absolute;left:2%}
 .icon-right{position:absolute;right:2%}
 #home-fig i{margin-top:-6px}
+.slider-wrapper{margin-bottom:1.5em}
 .nivoSlider{position:relative;width:100%;height:auto;overflow:hidden;background:#fff url(loading.gif) no-repeat 50% 50%}
 .nivoSlider img{position:absolute;top:0;left:0;max-width:none}
 .nivo-main-image{display:block !important;position:relative !important;width:100% !important}
