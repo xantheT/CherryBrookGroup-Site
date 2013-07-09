@@ -126,10 +126,16 @@
 	.nav-g {
 		position: absolute;
 		right: -50%;
-		 -webkit-transition: right 0.5s ease;
-  		-moz-transition: right 0.5s ease;
-	}
+		opacity: 0;
 
+		 transition-property: right, position;   //position transition does not do anything
+		  transition-duration: 0.5s, 1s;
+		  transition-delay: 0s, 0.5s ;
+		  //Safari
+		  -webkit-transition-property: right, position;
+		  -webkit-transition-duration: 0.5s, 1s;
+		  -webkit-transition-delay: 0s, 1s ;
+  }
 
 }
 
@@ -148,30 +154,47 @@
 	}
 }
 
-/* on small screens - show the nav btn*/
-.nav-btn {
-display: block;
-float: right;
-width: 2.625em;
-height: 2.25em;
-padding: 60px 0 0 0;
-border: 0;
-outline: none;
-background: transparent url("../img/icons/menu-icon.png") left center no-repeat;
-background-size: 1.875em 1.5em;
-overflow: hidden;
-white-space: nowrap;
-text-indent: 100%;
-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
-opacity: 0.7;
--webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
+/*For small screens....*/
+@media only screen and (max-width: 767px) {
+	/* on small screens - show the nav btn*/
+	.nav-btn {
+	display: block;
+	float: right;
+	width: 2.625em;
+	height: 2.25em;
+	padding: 60px 0 0 0;
+	border: 0;
+	outline: none;
+	background: transparent url("../img/icons/menu-icon.png") left center no-repeat;
+	background-size: 1.875em 1.5em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-indent: 100%;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+	opacity: 0.7;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	}
 
-/*This class gets toggled - ie. it is present when the nav is open and removed when the nav is hidden*/
-.js-nav {
-		position: relative;
-		right: 0%;	
-	
+	/*This class gets toggled - ie. it is present when the nav is open and removed when the nav is hidden*/
+	.js-nav {
+			position: relative;
+			right: 0%;
+			opacity: 1;	
+	}
+
+	.js-nav ul { line-height: 30px;	}
+
+	.header nav { margin-top: 9em !important;	}
+
+	header {
+		-webkit-box-shadow: 0 10px 20px -13px #777;
+		   -moz-box-shadow: 0 10px 20px -13px  #777;
+		        box-shadow: 0 10px 20px -13px  #777;
+	}
+
+}
+@media only screen and (max-width: 400px) { 
+	.header nav { margin-top: 3em !important;}
 }
 
 @media only screen and (max-width: 767px) { 
