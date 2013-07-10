@@ -86,8 +86,21 @@ padding: 1.5em;
 
 /* =Hero image stuff   ***not used - becuase reopklaced by nivoSlider
 -----------------------------------------------------------------------------*/
- .hero-img-container {
-	margin-bottom: 1.5em;
+ .hero-img-container {	
+ 	margin-bottom: 1.5em;
+ 	height: 25em;
+ 	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #211922;
+	padding: 0;
+ }
+
+ .hero-img-container, .about{
+	background-image: url('../img/renaissance.jpg');
  }
 
 // .hero-img-container img {
@@ -147,3 +160,29 @@ padding: 1.5em;
 
 /* =Footer
 -----------------------------------------------------------------------------*/
+
+/* ABOUT PAGE
+-----------------------------------------------------------------------------*/
+.tom { max-width: 150px;}
+
+.about-bullet-container {
+	padding: 3em 0 1em 0;
+	margin: 1em 0 3em 0;
+	background: @CBG_cream;
+	box-shadow: 0 3px 7px @CGB_warmblush inset;
+}
+
+.about-bullet { margin-bottom: 5em !important;}
+
+.about-bullet > img { max-height: 350px; }
+
+.bullet-text {margin-top: 2em;}
+
+.icon-container { text-align: center; padding-bottom: 2em;}
+
+.right {float:right;}
+
+.label a {text-decoration: none;}
+
+
+
