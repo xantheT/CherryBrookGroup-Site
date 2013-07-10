@@ -104,6 +104,7 @@
                     }
                 }
                 removeClass(nav, nav_class);
+                nav.style.display = "none";
                 nav_open = false;
             };
 
@@ -112,7 +113,8 @@
                 if (nav_open) {
                     return;
                 }
-                addClass(nav, nav_class);
+                nav.style.display = "block";
+                setTimeout(function() {addClass(nav, nav_class)},100);
                 nav_open = true;
             };
 
