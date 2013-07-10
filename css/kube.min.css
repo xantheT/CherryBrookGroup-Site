@@ -40,8 +40,8 @@ ol ol ol li{list-style-type:lower-roman}
 p,ul,ol,dl,blockquote,hr,pre,table,form,fieldset{margin-bottom:1.5em}
 dl dt{font-weight:bold}
 dd{margin-left:1em}
-blockquote{margin-bottom:1.5em;padding-left:1.5em;border-left:1px solid #ccc;color:#555}
-blockquote small,cite{color:#999;font-style:normal}
+blockquote{margin-bottom:1.5em;padding-left:1.5em;border-left:1px solid rgba(169,77,30,0.1);color:#4b541b}
+blockquote small,cite{color:#b08c50;font-style:normal}
 blockquote p{font-size:1.1em;margin-bottom:.5em;font-style:italic}
 small,blockquote cite{font-size:.85em;line-height:1}
 blockquote .pull-right,.row blockquote .pull-right{float:none;text-align:right;display:block}
