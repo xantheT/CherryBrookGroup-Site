@@ -288,13 +288,15 @@ a.green:focus,a.green:hover,a.red:focus,a.red:hover,a.error:focus,a.error:hover{
 .header h1{float:left;font-size:32px;margin-top:.5em;vertical-align:middle}
 .header nav{margin-top:5.2em;margin-bottom:1em;float:right;text-transform:uppercase}
 .container{padding:5px 10px;width:94%;max-width:1300px;margin:auto}
-.info-box li{background-color:#f7eee7}
+.info-box li,.info-box div{background-color:#f7eee7}
 .inner{padding:1.5em}
 .info-box h3,.info-box h3{font-weight:normal;font-family:'Oswald','Trebuchet MS',Helvetica,Arial,sans-serif;padding-bottom:.3em;border-bottom:1px solid;border-color:#999}
 .info-box a{color:#414141}
 .info-box a:hover{color:#b08c50}
 .hero-img-container{margin-bottom:1.5em;height:25em;background-position:center center;background-attachment:fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-color:#211922;padding:0}
-.hero-img-container,.about{background-image:url('../img/renaissance.jpg')}
+.about{background-image:url('../img/renaissance.jpg')}
+.portfolio{background-image:url('../img/bayArea.jpg')}
+.contact{background-image:url('../img/shriners.jpg')}
 .tom{max-width:150px}
 .about-bullet-container{padding:3em 0 1em 0;margin:1em 0 3em 0;background:#f7eee7;box-shadow:0 3px 7px rgba(169,77,30,0.1) inset}
 .about-bullet{margin-bottom:5em !important}
