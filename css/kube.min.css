@@ -300,11 +300,12 @@ a.green:focus,a.green:hover,a.red:focus,a.red:hover,a.error:focus,a.error:hover{
 .tom{max-width:150px}
 .about-bullet-container{padding:3em 0 1em 0;margin:1em 0 3em 0;background:#f7eee7;box-shadow:0 3px 7px rgba(169,77,30,0.1) inset}
 .about-bullet{margin-bottom:5em !important}
-.about-bullet>img{max-height:350px;border-radius:5px}
+.about-bullet>img{max-height:350px}
 .bullet-text{margin-top:2em}
 .icon-container{text-align:center;padding-bottom:2em}
 .right{float:right}
 .label a{text-decoration:none}
+.map{border-radius:10% 70% 10%}
 .icon-2{font-size:2em}
 .icon-left{position:absolute;left:2%}
 .icon-right{position:absolute;right:2%}
