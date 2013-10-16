@@ -310,6 +310,7 @@ a.green:focus,a.green:hover,a.red:focus,a.red:hover,a.error:focus,a.error:hover{
 .dialogIsOpen #page-wrap{-webkit-filter:blur(5px) grayscale(50%);-webkit-transform:scale(.9)}
 .dialogIsOpen #modal{transform:scale(1);opacity:1;pointer-events:auto}
 #page-wrap,#modal{transition:all .4s ease;}
+.modal-text-container p,h4{margin-left:1em;margin-right:1em}
 .icon-2{font-size:2em}
 .icon-left{position:absolute;left:2%}
 .icon-right{position:absolute;right:2%}
