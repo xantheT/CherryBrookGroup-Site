@@ -311,6 +311,8 @@ a.green:focus,a.green:hover,a.red:focus,a.red:hover,a.error:focus,a.error:hover{
 .dialogIsOpen #modal{transform:scale(1);opacity:1;pointer-events:auto}
 #page-wrap,#modal{transition:all .4s ease;}
 .modal-text-container p,h4{margin-left:1em;margin-right:1em}
+.hidden-description{display:none}
+.portfolioItem{cursor:pointer}
 .icon-2{font-size:2em}
 .icon-left{position:absolute;left:2%}
 .icon-right{position:absolute;right:2%}

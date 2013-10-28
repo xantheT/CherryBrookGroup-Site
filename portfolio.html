@@ -52,37 +52,53 @@
 				<li>
 					<div class="portfolioItem"><!-- <div class="inner"> -->
 						<img src="./img/portfolio/palomar.jpg" alt="A Cherrybrook Group development"/>
-						Palomar, CA
+						<span>Palomar, CA</span>
+						<span class="hidden-description">Hidden. But now shown this is some text about the house and it goes on and on and ramble a bit but this would be the text for it.</span>
 					</div>
 				</li>
 				<li>
 					<div class="portfolioItem">
 						<img src="./img/portfolio/mary.jpg" alt="A Cherrybrook Group development"/>
-						South Mary Avenue, Sunnyvale. CA
+						<span>South Mary Avenue, Sunnyvale. CA</span>
+						<span class="hidden-description">
+							Another descriotion for this property.
+						</span>
 					</div>
 				</li>
 				<li>
 					<div class="portfolioItem">
 						<img src="./img/portfolio/riverOaks.jpg" alt="A Cherrybrook Group development"/>
-						River Oaks Village, North San Jose. CA
+						<span>River Oaks Village, North San Jose. CA</span>
+						<span class="hidden-description">
+							Another descriotion for this property.
+						</span>
 					</div>
 				</li>
 				<li>
 					<div class="portfolioItem">
 						<img src="./img/portfolio/congregationS.jpg" alt="A Cherrybrook Group development"/>
-						Congregation Sinai, San Jose. CA
+						<span>Congregation Sinai, San Jose. CA</span>
+						<span class="hidden-description">
+							Another descriotion for this property.
+						</span>
 					</div>
 				</li>
 				<li>
 					<div class="portfolioItem">
 						<img src="./img/portfolio/renaissance.jpg" alt="A Cherrybrook Group development"/>
-						Renaissance Village, North San Jose. CA
+						<span>Renaissance Village, North San Jose. CA</span>
+						<span class="hidden-description">
+							Another descriotion for this property.
+						</span>
 					</div>
 				</li>
 				<li>
 					<div class="portfolioItem">
 						<img src="./img/portfolio/runnymeade.jpg" alt="A Cherrybrook Group development"/>
-						Runnymeade Property, East Palo Alto. CA
+						<span>Runnymeade Property, East Palo Alto. CA</span>
+						<span class="hidden-description">
+							Another descriotion for this property.
+						</span>
 					</div>
 				</li>			
 			</ul>
@@ -138,7 +154,8 @@
 	$(".portfolioItem").on("click", function() {
 		//set the info inside the modal div to match the content of the item you picked
 		$("#modal").find('img')[0].src = $(this).find('img')[0].src;
-		$("#modal-title").text($(this).text());
+		$("#modal-title").text($(this).find('span').html());
+		$("#modal-text").text($(this).find('.hidden-description').text());
 		//now just need to get the paragraph for each
 
 
