@@ -290,12 +290,16 @@ a.green:focus,a.green:hover,a.red:focus,a.red:hover,a.error:focus,a.error:hover{
 .container{padding:5px 10px;width:94%;max-width:1300px;margin:auto}
 .info-box li,.info-box div{background-color:#f7eee7}
 .inner{padding:1.5em}
+.inner h3 a:link{text-decoration:none}
+.inner h3 a:visited{text-decoration:none}
+.inner h3 a:hover{text-decoration:none}
+.inner h3 a:active{text-decoration:none}
 .info-box h3,.info-box h3{font-weight:normal;font-family:'Oswald','Trebuchet MS',Helvetica,Arial,sans-serif;padding-bottom:.3em;border-bottom:1px solid;border-color:#999}
 .info-box a{color:#414141}
 .info-box a:hover{color:#b08c50}
 .hero-img-container{margin-bottom:1.5em;height:25em;background-position:center center;background-attachment:fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-color:#211922;padding:0}
 .about{background-image:url('../img/renaissance.jpg')}
-.portfolio{background-image:url('../img/bayArea.jpg')}
+.portfolio{background-image:url('http://upload.wikimedia.org/wikipedia/commons/9/95/San_Francisco_Oakland_Bay_Bridge_at_night.jpg')}
 .contact{background-image:url('../img/shriners.jpg')}
 .tom{max-width:150px}
 .about-bullet-container{padding:3em 0 1em 0;margin:1em 0 3em 0;background:#f7eee7;box-shadow:0 3px 7px rgba(169,77,30,0.1) inset}
@@ -305,6 +309,7 @@ a.green:focus,a.green:hover,a.red:focus,a.red:hover,a.error:focus,a.error:hover{
 .icon-container{text-align:center;padding-bottom:2em}
 .right{float:right}
 .label a{text-decoration:none}
+#direction-label{margin-top:5px}
 .map{border-radius:10% 70% 10%}
 #modal{background:#fff;position:fixed;width:50%;top:50%;left:50%;margin:-25% 0 0 -25%;transform:scale(1.5);opacity:0;pointer-events:none}
 .dialogIsOpen #page-wrap{-webkit-filter:blur(5px) grayscale(50%);-webkit-transform:scale(.9)}
@@ -318,6 +323,7 @@ a.green:focus,a.green:hover,a.red:focus,a.red:hover,a.error:focus,a.error:hover{
 .icon-right{position:absolute;right:2%}
 #home-fig i{margin-top:-6px}
 .icon-big{font-size:6em}
+.icon-close{float:right;margin-top:-2.5em !important;padding-right:.1em;font-size:2em}
 .slider-wrapper{margin-bottom:1.5em}
 .nivoSlider{position:relative;width:100%;height:auto;overflow:hidden;background:#fff url(loading.gif) no-repeat 50% 50%}
 .nivoSlider img{position:absolute;top:0;left:0;max-width:none}
